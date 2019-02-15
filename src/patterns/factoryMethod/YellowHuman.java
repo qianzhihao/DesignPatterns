@@ -8,4 +8,9 @@ public class YellowHuman implements Human {
     public void talk() {
         System.out.println("黄色人种会说话，一般人说的是双字节。");
     }
+
+    @Override
+    public void getSex() {
+
+    }
 }

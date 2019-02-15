@@ -5,4 +5,6 @@ public interface Human {
     public void getColor();
     //人类会说话
     public void talk();
+    //每个人都有性别
+    public void getSex();
 }
