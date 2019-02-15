@@ -1,4 +1,4 @@
-package patterns.templateMethod;
+package patterns.templateMethod.example;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package patterns.templateMethod;
+package patterns.templateMethod.example;
 
 public class HummerH2Model extends HummerModel {
 

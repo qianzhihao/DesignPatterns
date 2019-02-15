@@ -1,4 +1,4 @@
-package patterns.templateMethod;
+package patterns.templateMethod.example;
 
 public abstract class HummerModel {
     /*
