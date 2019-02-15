@@ -1,6 +1,6 @@
 package patterns.factoryMethod;
 
-public class ConcretecCreator extends Creator {
+public class ConcreteCreator extends Creator {
     @Override
     public <T extends Product> T createProduct(Class<T> c) {
         Product product = null;
