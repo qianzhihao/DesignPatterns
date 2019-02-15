@@ -1,4 +1,6 @@
-package patterns.factoryMethod;
+package patterns.factoryMethod.example;
+
+import patterns.factoryMethod.example.Human;
 
 public class WhiteHuman implements Human {
     public void getColor() {
@@ -7,10 +9,5 @@ public class WhiteHuman implements Human {
 
     public void talk() {
         System.out.println("白色人种会说话，一般人说的是单字节。");
-    }
-
-    @Override
-    public void getSex() {
-
     }
 }
