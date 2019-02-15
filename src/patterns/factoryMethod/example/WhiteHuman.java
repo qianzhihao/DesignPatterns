@@ -1,7 +1,5 @@
 package patterns.factoryMethod.example;
 
-import patterns.factoryMethod.example.Human;
-
 public class WhiteHuman implements Human {
     public void getColor() {
         System.out.println("白色人种的皮肤颜色是白色的！");
