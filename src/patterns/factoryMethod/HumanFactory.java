@@ -1,8 +1,7 @@
 package patterns.factoryMethod;
 
-public class HumanFactory extends AbstractHumanFactory {
-    @Override
-    public <T extends Human> T createHuman(Class<T> c) {
+public class HumanFactory {
+    public static <T extends Human> T createHuman(Class<T> c) {
         //定义一个生产的人种
         Human human = null;
         try {
