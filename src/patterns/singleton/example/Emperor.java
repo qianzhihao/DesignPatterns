@@ -1,4 +1,4 @@
-package patterns.singleton;
+package patterns.singleton.example;
 
 import java.util.ArrayList;
 import java.util.Random;

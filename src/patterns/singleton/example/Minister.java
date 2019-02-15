@@ -1,4 +1,4 @@
-package patterns.singleton;
+package patterns.singleton.example;
 
 public class Minister {
     public static void main(String[] args) {

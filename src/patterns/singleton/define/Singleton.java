@@ -1,4 +1,4 @@
-package patterns.singleton;
+package patterns.singleton.define;
 
 public class Singleton {
     private static final Singleton singleton = new Singleton();
