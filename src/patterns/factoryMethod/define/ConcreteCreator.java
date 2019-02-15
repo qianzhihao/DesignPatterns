@@ -1,4 +1,7 @@
-package patterns.factoryMethod;
+package patterns.factoryMethod.define;
+
+import patterns.factoryMethod.define.Creator;
+import patterns.factoryMethod.define.Product;
 
 public class ConcreteCreator extends Creator {
     @Override

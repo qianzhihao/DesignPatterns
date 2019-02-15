@@ -1,4 +1,6 @@
-package patterns.factoryMethod;
+package patterns.factoryMethod.define;
+
+import patterns.factoryMethod.define.Product;
 
 public class ConcreteProduct2 extends Product {
     public void method2() {

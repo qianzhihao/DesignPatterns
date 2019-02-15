@@ -1,4 +1,4 @@
-package patterns.factoryMethod;
+package patterns.factoryMethod.define;
 
 public abstract class Product {
     //产品类的公共方法
