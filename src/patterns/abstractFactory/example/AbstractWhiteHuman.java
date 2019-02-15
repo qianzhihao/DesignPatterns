@@ -1,6 +1,6 @@
 package patterns.abstractFactory.example;
 
-import patterns.factoryMethod.Human;
+import patterns.factoryMethod.example.Human;
 
 public abstract class AbstractWhiteHuman implements Human{
     //白色人种的肤色是白色的

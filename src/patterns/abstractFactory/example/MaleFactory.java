@@ -1,11 +1,5 @@
 package patterns.abstractFactory.example;
 
-import patterns.factoryMethod.Human;
-import patterns.factoryMethod.*;
-import patterns.factoryMethod.MaleBlackHuman;
-import patterns.factoryMethod.MaleWhiteHuman;
-import patterns.factoryMethod.MaleYellowHuman;
-
 public class MaleFactory implements HumanFactory {
     //生产出黑人男性
     public Human createBlackHuman() {

@@ -1,10 +1,5 @@
 package patterns.abstractFactory.example;
 
-import patterns.factoryMethod.FemaleFactory;
-import patterns.factoryMethod.Human;
-import patterns.factoryMethod.HumanFactory;
-import patterns.factoryMethod.MaleFactory;
-
 public class NvWa {
     public static void main(String[] args) {
         //第一条生产线，男性生产线

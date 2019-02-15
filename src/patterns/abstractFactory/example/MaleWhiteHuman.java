@@ -1,7 +1,5 @@
 package patterns.abstractFactory.example;
 
-import patterns.factoryMethod.AbstractWhiteHuman;
-
 public class MaleWhiteHuman extends AbstractWhiteHuman {
     @Override
     public void getSex() {
