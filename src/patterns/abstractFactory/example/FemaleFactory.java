@@ -1,8 +1,6 @@
 package patterns.abstractFactory.example;
 
-import patterns.factoryMethod.example.Human;
-
-public class FemaleFactory implements HumanFactory {
+public class FemaleFactory implements HumanFactory{
     //生产出黑人女性
     public Human createBlackHuman() {
         return new FemaleBlackHuman();

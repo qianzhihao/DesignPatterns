@@ -1,7 +1,5 @@
 package patterns.abstractFactory.example;
 
-import patterns.factoryMethod.example.Human;
-
 public abstract class AbstractYellowHuman implements Human{
     //黄色人种的肤色是黄色的
     public void getColor() {
