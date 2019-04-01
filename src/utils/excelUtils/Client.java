@@ -11,7 +11,8 @@ public class Client {
         //2.读取上一步上传的 xls 文件并解析成 List<Object>;
         //3.持久化 List<Object> 中的每个 Object；
 
-        List<ApiInfo> apiInfoList =  Excel2Object.loadApiInfo("E:\\testworkbook.xls");
+        Excel2Object excel2Object = new Excel2Object();
+        List<ApiInfo> apiInfoList =  excel2Object.loadApiInfo("E:\\testworkbook.xls");
         System.out.println("表格中一共有"+ apiInfoList.size() +"个api");
 
         for (int i = 0; i < apiInfoList.size(); i++) {
