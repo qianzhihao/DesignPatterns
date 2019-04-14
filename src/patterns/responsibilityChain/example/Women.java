@@ -14,7 +14,14 @@ public class Women implements IWomen {
     //构造函数传递过来请求
     public Women(int _type,String _request) {
         this.type = _type;
-        this.request = _request;
+        switch (this.type) {
+            case 1:
+                this.request = "女儿的请求是：" + _request;
+            case 2:
+                this.request = "妻子的请求是：" + _request;
+            case 3:
+                this.request = "母亲的请求是：" + _request;
+        }
     }
 
     //获得自己的状况
