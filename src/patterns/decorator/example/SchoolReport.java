@@ -1,4 +1,4 @@
-package patterns.Decorator.example;
+package patterns.decorator.example;
 
 public abstract class SchoolReport {
     //成绩单主要展示的就是你的成绩情况

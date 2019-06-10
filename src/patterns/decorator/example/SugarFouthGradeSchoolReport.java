@@ -1,4 +1,4 @@
-package patterns.Decorator.example;
+package patterns.decorator.example;
 
 public class SugarFouthGradeSchoolReport extends FouthGradeSchoolReport {
     //首先 要 定义 你要 美化 的 方法， 先给 老爸 说 学校 最高 成绩

@@ -1,4 +1,4 @@
-package patterns.Decorator.define;
+package patterns.decorator.define;
 
 public class ConcreteDecorator1 extends Decorator {
     public ConcreteDecorator1(Component _component) {

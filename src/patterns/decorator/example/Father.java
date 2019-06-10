@@ -1,4 +1,4 @@
-package patterns.Decorator.example;
+package patterns.decorator.example;
 
 public class Father {
     public static void main(String[] args) {

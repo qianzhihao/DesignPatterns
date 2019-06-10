@@ -1,4 +1,4 @@
-package patterns.Decorator.define;
+package patterns.decorator.define;
 
 public abstract class Decorator extends Component {
     private Component component = null;

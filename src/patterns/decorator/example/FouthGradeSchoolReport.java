@@ -1,4 +1,4 @@
-package patterns.Decorator.example;
+package patterns.decorator.example;
 
 public class FouthGradeSchoolReport extends SchoolReport {
     //我的 成绩单

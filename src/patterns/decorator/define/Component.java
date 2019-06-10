@@ -1,4 +1,4 @@
-package patterns.Decorator.define;
+package patterns.decorator.define;
 
 public abstract class Component {
     public abstract void operate();

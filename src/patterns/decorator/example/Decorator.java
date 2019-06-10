@@ -1,4 +1,4 @@
-package patterns.Decorator.example;
+package patterns.decorator.example;
 
 public class Decorator extends SchoolReport {
     //首先我要知道是哪个成绩单

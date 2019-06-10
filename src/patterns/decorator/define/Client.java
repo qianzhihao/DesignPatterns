@@ -1,4 +1,4 @@
-package patterns.Decorator.define;
+package patterns.decorator.define;
 
 public class Client {
     public static void main(String[] args) {

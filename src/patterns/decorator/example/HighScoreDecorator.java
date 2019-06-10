@@ -1,4 +1,4 @@
-package patterns.Decorator.example;
+package patterns.decorator.example;
 
 public class HighScoreDecorator extends Decorator {
     //构造函数
