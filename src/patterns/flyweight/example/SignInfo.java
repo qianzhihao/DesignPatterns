@@ -1,4 +1,4 @@
-package patterns.Flyweight.example;
+package patterns.flyweight.example;
 
 public class SignInfo {
     private String id;

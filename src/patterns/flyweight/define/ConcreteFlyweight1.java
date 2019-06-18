@@ -1,4 +1,4 @@
-package patterns.Flyweight.define;
+package patterns.flyweight.define;
 
 public class ConcreteFlyweight1 extends Flyweight {
     public ConcreteFlyweight1(String _Extrinsic) {

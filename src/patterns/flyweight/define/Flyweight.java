@@ -1,4 +1,4 @@
-package patterns.Flyweight.define;
+package patterns.flyweight.define;
 
 public abstract class Flyweight {
     private String instrinsic;
