@@ -1,4 +1,4 @@
-package patterns.pk.struct.proxy;
+package patterns.pk.struct.pk1.proxy;
 
 public class Client {
     public static void main(String[] args) {

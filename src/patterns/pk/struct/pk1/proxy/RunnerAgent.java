@@ -1,4 +1,4 @@
-package patterns.pk.struct.proxy;
+package patterns.pk.struct.pk1.proxy;
 
 import java.util.Random;
 
