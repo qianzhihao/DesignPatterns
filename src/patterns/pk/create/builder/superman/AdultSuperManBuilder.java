@@ -1,4 +1,4 @@
-package patterns.pk.create.builder;
+package patterns.pk.create.builder.superman;
 
 public class AdultSuperManBuilder extends Builder {
 
