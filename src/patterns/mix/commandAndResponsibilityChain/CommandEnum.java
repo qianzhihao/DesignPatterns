@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public enum CommandEnum {
-    ls("com.cbf4life.common.command.LSCommand");
+    ls("com.cbf4life.common.command.LSCommand"),
+    df("com.cbf4life.common.command.DFCommand");
     private String value = "";
     private CommandEnum(String value) {
         this.value = value;
