@@ -17,8 +17,8 @@ public class Client {
         userList.add(new User("Kobe", 3));
 
         IUserProvider userProvider = new UserProvider(userList);
-        System.out.println("===age over 20===");
-        IUserSpecification userSpec = new UserByAgeThan(20);
+        System.out.println("===name contains 'on'===");
+        IUserSpecification userSpec = new UserByNameLike("%on%");
         for (User u:userProvider.findUser(userSpec)) {
             System.out.println(u);
         }
