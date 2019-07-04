@@ -1,6 +1,6 @@
-package patterns.mix.specification;
+package patterns.mix.specification.example;
 
-public class UserByAgeThan implements IUserSpecification {
+public class UserByAgeThan extends CompositeSpecification{
 
     private int age;
     public UserByAgeThan(int _age) {

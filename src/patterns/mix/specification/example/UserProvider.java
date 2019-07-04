@@ -1,4 +1,4 @@
-package patterns.mix.specification;
+package patterns.mix.specification.example;
 
 import java.util.ArrayList;
 

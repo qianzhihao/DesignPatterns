@@ -1,6 +1,6 @@
-package patterns.mix.specification;
+package patterns.mix.specification.example;
 
-public class UserByNameLike implements IUserSpecification {
+public class UserByNameLike extends CompositeSpecification {
     private final static String LIKE_FLAG = "%";
 
     private String likeStr;

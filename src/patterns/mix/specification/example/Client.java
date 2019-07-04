@@ -1,4 +1,4 @@
-package patterns.mix.specification;
+package patterns.mix.specification.example;
 
 import java.util.ArrayList;
 
@@ -14,12 +14,13 @@ public class Client {
         userList.add(new User("Young", 25));
         userList.add(new User("Bryant", 30));
         userList.add(new User("Yi", 35));
-        userList.add(new User("Kobe", 3));
+        userList.add(new User("Kobe", 30));
 
         IUserProvider userProvider = new UserProvider(userList);
         System.out.println("===name contains 'on'===");
-        IUserSpecification userSpec = new UserByNameLike("%on%");
-        for (User u:userProvider.findUser(userSpec)) {
+        IUserSpecification userSpecification = new UserByAgeThan(10);
+        IUserSpecification userSpec = new UserByNameLike("%e%");
+        for (User u:userProvider.findUser(userSpecification.and(userSpec))) {
             System.out.println(u);
         }
     }

@@ -1,4 +1,4 @@
-package patterns.mix.specification;
+package patterns.mix.specification.example;
 
 public class User {
     private String name;
