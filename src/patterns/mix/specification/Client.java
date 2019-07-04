@@ -18,7 +18,8 @@ public class Client {
 
         IUserProvider userProvider = new UserProvider(userList);
         System.out.println("===age over 20===");
-        for (User u:userProvider.findUserByAgeThan(20)) {
+        IUserSpecification userSpec = new UserByAgeThan(20);
+        for (User u:userProvider.findUser(userSpec)) {
             System.out.println(u);
         }
     }
